@@ -5,6 +5,13 @@ import photo1 from "./assets/photo1.avif";
 import photo2 from './assets/photo2.avif';
 import photo4 from './assets/photo4.avif';
 import background from './assets/background.jpg';
+import Brand from "./components/Brand"
+import Choose from "./components/Choose"
+import Client from "./components/Client"
+import Header from "./components/Header"
+import Price from "./components/Price"
+import Services from "./components/Services"
+import Works from "./components/Works"
 
 export default function App() {
   const testimonials = [
@@ -101,6 +108,16 @@ export default function App() {
 
   return (
     <div>
+
+      {/* surender */}
+      <Header />
+      <Services />
+      <Brand />
+      <Choose />
+      <Client />
+      <Price />
+      <Works />
+
      {/* Testimonials */}
 <div className="main">
   <div>
@@ -432,3 +449,7 @@ export default function App() {
     </div>
   );
 }
+
+
+
+
